@@ -1,0 +1,444 @@
+/* 
+tipografias
+font-family: 'Montserrat Alternates', sans-serif; principal
+font-family: 'Pontano Sans', sans-serif; secundaria
+paleta de color
+#F2C48D 
+#D98C5F
+#8C3D20
+#8C5C4A
+#D9D9D9
+#63432b
+banco de imagenes
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*header css
+1- posicionamientos
+2- box model (margin border padding with height)
+3- foont tamaños 
+4- background-color color
+*/
+.fondo{
+    height: 90vh;
+    background-color: #8C5C4A;
+    background-image: linear-gradient( to top left , #8C5C4A , #D98C5F , #F2C48D );
+}
+header{
+    margin: 0px;
+    width: 100%;
+    /**border: 5px solid #8C5C4A;**/
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 20px;
+    background-color: #f2c58dc1;
+    /**background-image: url(../img/1c55540e77138fe446af08fc3f19ca3ff156f228.jpeg);
+    background-size:cover;**/
+}
+
+nav{
+padding: 5px;
+background-color:#8C5C4A;
+}
+.nav1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav1 ul li{
+    padding: 20px;
+}
+.nav1 li a{
+    text-decoration: none;
+    color: #D98C5F;
+}
+.nav1 li a:hover{ 
+    color: #d6d6d6;
+}
+
+.logo{
+    height: 160px;
+}
+.logo:hover{
+    transition: all 2s;
+    transform: scale(2);
+}
+
+/**.nav1 li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 45px;
+    }
+.nav1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #8C3D20;
+}
+.nav1 a:hover{
+    color: #d6d6d6;
+}
+**/
+
+
+/**main**/
+
+main{
+    height: 100%;
+    width: 100%;
+    font-family: 'Pontano Sans', sans-serif;
+    color: #8C3D20;
+    background-color: #d98c5fa4;    
+}
+
+.mainNosotros p{
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.mainPedidosPersonalizados{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.mainPedidosPersonalizados p{
+    font-size: 18px;
+    padding: 25px;
+}
+.mainNuestrasDelicias{
+    width: 100%;
+    height: 100%;
+}
+.tipografia-style{
+    font-family: 'Montserrat Alternates';
+    color: #8C3D20;
+    text-align: center;
+    font-size: 25px;
+    text-decoration:underline ;
+    padding: 70px;
+}
+.tipografia-style:hover{
+    transition: all 2s;
+    transform:scale(2);
+}
+.tipografiaStylePedidosPersonalizados{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Montserrat Alternates';
+    color: #8C3D20;
+    padding: 20px;
+}
+.mainPedidosPersonalizados p span{
+    font-size: 15px;
+}
+.sectionBannerIndex{
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+    background-image: url(../img/crois.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+/**.sectionImg div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}**/
+
+
+.sectionBannerIndex span{
+    text-decoration-line: underline;
+}
+.sectionBannerIndex a{
+    height: 40px;
+    width: 80px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #8c5c4adb;
+    color: #D98C5F;
+}
+.sectionBannerIndex a:hover{
+    color: #8C3D20;
+}
+
+/**.imgPrincipal{
+    width: 100%;
+    height: 1000px;
+}**/
+.imagenFavoritosIndex{
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+    margin-left: 70px;
+}
+.gridFavoritos{
+    display: grid;
+    grid-template-columns: 410px 410px 410px;
+    grid-template-rows: 310px;
+    display: flex;
+    justify-content: center;
+    padding-bottom:70px;
+}
+.imagenCentralNosotros{
+    width: 600px;
+    height: 500px;
+    margin-left: 30%;
+    padding-bottom: 50px;
+}
+.sectionBanner2-index{
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    background-image: url(../img/cakeFrutoRojo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:baseline;
+}
+.sectionBanner2-index p{
+    height: 60px;
+    width: 325px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #D98C5F;
+    background-color: #8c5c4adb;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+.sectionBanner2-index a{
+    height: 45px;
+    width: 225px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #8c5c4adb;
+    color: #D98C5F;
+}
+.sectionBanner2-index a:hover{
+    color: #d9d9d9;
+}
+.section-nuestrasdelicias p{
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.section-nuestrasdelicias ul{
+    padding-bottom: 40px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.section-nuestrasdelicias a{
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+.bannerNuestrasDelicias{
+    width: 100%;
+    height: 600px;
+    padding: 15px;
+    background-image: url(../img/selvaNegra.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.imagenGaleriaNuestrasDelicias{
+    width: 400px;
+    height: 300px;
+    padding: 15px;
+    margin-left: 20px;
+}
+.gridNuestrasDeliciasGaleria{
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px;
+    grid-template-rows: 310px;
+    justify-content: center;
+}
+
+/**footer**/
+
+footer{
+    padding: 10px;
+    min-height: 90px;
+    width: 100%;
+    font-family: 'Pontano Sans', sans-serif;
+    font-size: 15px;
+    background-color: #8c5c4a;
+    display: flex;
+    align-items: center;
+}
+.redes li{
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-top: 10px;
+    margin-left: 15px;
+    list-style: none;
+}
+.redes ul{
+    padding: 5px;
+}
+footer a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #d6d6d6;
+}
+footer a:hover{
+    color: #D98C5F;
+}
+.footerDireccion p{
+    display: flex;
+    justify-items: center;
+    padding: 10px;
+    color: #d9d9d9;
+    text-align: center;
+    padding-left: 460px;
+}
+.fa-brands{
+    letter-spacing: 5px;
+}
+.subir{
+    height: 50px;
+    width: 50px;
+    background-color:#D98C5F;
+    color: #8C3D20;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #672d18;
+}
+
+@media screen and (max-width:450px) {
+    header {
+        font-size: 10px;
+        width: auto;
+    }
+    .logo {
+        height: 60px;
+    }
+    .nav1 ul li {
+        padding: 5px;
+    }
+    .sectionBannerIndex {
+        height: 200px;
+        padding: 10px;
+    }
+    .sectionBannerIndex a {
+        height: 10px;
+        width: 30px;
+        padding: 5px 10px;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+    .tipografia-style{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .imagenFavoritosIndex{
+        width: 230px;
+        height: 190px;
+        padding: 5px;
+        margin-left: 10px;
+    }
+    .gridFavoritos{
+        display: grid;
+        grid-template-columns: 240px;
+        grid-template-rows: 200px 200px 200px;
+        justify-content: center;
+    }
+    .sectionBanner2-index{
+        height: 200px;
+        padding: 10px;
+    }
+    .sectionBanner2-index p{
+        height: 25px;
+        width: 190px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .sectionBanner2-index a{
+        height: 30px;
+        width: 160px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        font-size: 10px;
+        background-color: #8c5c4adb;
+        color: #D98C5F;
+    }
+    footer{
+        padding: 5px;
+        min-height: 50px;
+        font-size: 10px;
+
+    }
+    .redes li{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .footerDireccion p{
+        padding: 5px;
+        padding-left: 70px;
+    }
+    .fa-brands{
+        letter-spacing: 2px;
+    }
+    .subir{
+        height: 25px;
+        width: 25px;
+        bottom: 25px;
+        right: 25px;
+        line-height: 30px;
+        font-size: 10px;
+        border-radius: 50%;
+        box-shadow: 0 0 20px #672d18;
+    }
+    .bannerNuestrasDelicias{
+        height: 200px;
+        padding: 10px;
+    }
+    .section-nuestrasdelicias p{
+        padding: 5px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .section-nuestrasdelicias ul{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .imagenGaleriaNuestrasDelicias{
+        width: 230px;
+        height: 190px;
+        padding: 5px;
+        margin-left: 5px;
+    }
+    .gridNuestrasDeliciasGaleria{
+        display: grid;
+        grid-template-columns: 240px;
+        grid-template-rows: 200px 200px 200px;
+        justify-content: center;
+    }
+}
